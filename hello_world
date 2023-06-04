@@ -1,8 +1,9 @@
+# Following are the minimum set of parameters required to create a Google Cloud Function.
+# Please make sure your uploaded manifest file includes all of them.
+
 function:
   name: hello_world
-  buildConfig:
-    runtime: python311
-    entryPoint: hello_world
-  environment: GEN_1
+  runtime: python311
+  entryPoint: hello_world
   httpsTrigger:
     securityLevel: SECURE_OPTIONAL
