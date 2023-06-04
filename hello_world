@@ -3,5 +3,6 @@ function:
   buildConfig:
     runtime: python311
     entryPoint: hello_world
+  environment: GEN_1
   httpsTrigger:
     securityLevel: SECURE_OPTIONAL
